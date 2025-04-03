@@ -7,8 +7,8 @@ import java.util.Scanner
 			System.out.println("Enter two numbers");
 		       int num1= sc.nextInt();
 		       int num2= sc.nextInt();
-		    int add = num1 + num2;  
-		    System.out.println("Addition of two numbers is "+add);
+		    int mul = num1 * num2;  
+		    System.out.println("Multiplication of two numbers is "+ mul);
 		    sc.close();
 	}
 }
